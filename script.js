@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const boxHeight = Turtle.offsetHeight;
     const range = 20;
 
-    let boxX = window.innerWidth/2 - boxWidth/2;
+    let boxX = window.innerWidth/2 - boxWidth/2 +20;
     let boxY = window.innerHeight/2 - boxHeight/2;
 
     Turtle.style.left = boxX + 'px';
